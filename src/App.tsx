@@ -72,7 +72,7 @@ function App() {
 
       <ul>
         {warSchedule.length === 0 && 
-          <li>nenhum horário ainda</li>}
+          <li>Nenhum horário ainda</li>}
         {warSchedule.map(item => (
           <li key={item}>{item}</li>
         ))}
