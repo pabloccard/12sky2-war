@@ -3,8 +3,8 @@ import { RefObject, useEffect, useRef, useState } from 'react';
 import './app.css'
 
 const CURRENT_DATE_FORMATTED = formatISO(new Date(), { representation: 'date' })
-const DURATION_WAR = 15
-const INTERVAL_BETWEEN_WARS = 85
+const DURATION_WAR = 18
+const INTERVAL_BETWEEN_WARS = 80
 
 function formatSchedules(dates: Array<Date>) {
   return dates.map(time => {
