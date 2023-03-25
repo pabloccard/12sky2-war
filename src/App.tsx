@@ -66,7 +66,7 @@ function App() {
   return (
     <div className='container'>
       <form onSubmit={(e)=> {handleSubmit(e)}}>
-        <input ref={TIME_INPUT} type="time"/>
+        <input ref={TIME_INPUT} type="time" defaultValue={'00:00'}/>
         <button type="submit">CALCULAR</button>
       </form>
 
